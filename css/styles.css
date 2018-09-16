@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'GrandeSign';
+    src: url(../resources/GrandeSign.ttf);
+}
+
+@font-face {
+    font-family: 'ClearSans';
+    src: url(../resources/ClearSans.ttf);
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/*
+* === NAVBAR E DERIVADOS ===
+*/
+
+
+
+.navbar-light .navbar-brand {
+    opacity:0;
+    transition:opacity 0.4s linear;
+}
+
+.brandi {
+    opacity:1 !important;
+}
+
+#navfont.active {
+    color: rgb(253, 185, 22);
+}
+
+#navfont:hover {
+    color: rgb(0, 84, 35);
+}
+
+#navfont {
+    color: black;
+    transition: 0.4 all;
+    transition-duration: 0.4s;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.3rem;
+}
+
+/*
+* === CONFIGURAÇÃO GERAL DE HEADERS E PARAGRAFO ===
+*/
+
+
+/*
+* === HOME ===
+*/
+
+
+h1{
+    color: rgb(32,177,74);
+    font-size: 350%;
+    font-size-adjust: auto;
+    font-family: 'GrandeSign', sans-serif;
+}
+
+h3{
+    color: black;
+    font-size: 250%;
+    font-size-adjust: auto;
+    font-family: 'GrandeSign', sans-serif;
+    padding-bottom: 25px;
+}
+
+h2{
+    font-family: 'ClearSans', sans-serif;
+    font-size: 150%;
+}
+
+
+
+.bg-1 {
+    background-image: url(../img/home.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-area {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.changenav {
+    background-color: rgb(255,255,255) !important;
+    box-shadow:0 2px 7px 0px rgba(142, 142, 142, 0.15);
+}
+
+.nav {
+    background-color: rgba(255, 255, 255, 0);
+    transition: 0.6s all;
+}
+
+
+/*
+* === SOBRE MIM ===
+*/
+
+.visicon{
+    font-size: 2rem;
+    color: rgb(32,177,74);
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.14rem;
+}
+
+.sobre {
+    background-color: rgb(245,245,245);
+    padding: 60px;
+}
+
+/*
+* === ENERGIA SOLAR ===
+*/
+
+#solar{
+    padding: 60px;
+}
+
+.presimg {
+    padding: 10px;
+}
+
+.list{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1rem;
+}
+
+/*
+* === CONTATO ===
+*/
+
+#map {
+        width: 90%;  /* The width is the width of the web page */
+        height: 50%;
+       }
+
+.forms {
+    max-width: 600px;
+}
+
+.contact p{
+    margin: 0px;   
+}
+
+
+
+.contato {
+    padding-top: 25px;
+    padding-bottom: 80px;
+}
+
+.formlabel {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+#honeypot {
+    display: none;
+}
+
+
+
+.btn-send {
+    line-height: 48px;
+    color: #fff;
+    width: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 0;
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif
+}
+
+.form-control {
+    box-shadow: none;
+    background: #d1d0d0;
+    border: none;
+    width: 100%;
+    padding-left: 20px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 0;
+}
+
+.form-control:focus{
+    background: #d1d0d0;
+}
+
+.contact .nameP{
+    font-size: 1.35rem;
+}
+
+.contact .telP{
+    font-size: 1rem;
+    color:gray;
+}
+.contact .emailP{
+    font-size: 1rem;
+    color: dimgray;
+}
+
+.contact .emailP:hover{
+    font-size: 1rem;
+    color: rgb(32,177,74);
+}
+
+/*
+* === FOOTER ===
+*/
+
+
+#footer {
+    text-align: center;
+    background: rgb(0, 84, 35);
+}
+
+#footer p {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9rem;
+}
+
+.fb {
+    transition: 0.36s all;
+}
+
+.fb:hover {
+    color: rgb(253, 185, 22) !important;
+}
+
+
+#jrcomlink{
+    color: white;
+}
+
+#jrcomlink:hover{
+        color: rgb(253, 185, 22);
+    }
